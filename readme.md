@@ -1,6 +1,6 @@
 # Goals:
 
-- Create a minimal elixir project that works locally
+✓ Create a minimal elixir project that works locally
 - Be able to deploy an elixir project
 - deploy with git push (we don't want to have ssh access to the server)
 - support hot upgrades
