@@ -14,7 +14,7 @@ defmodule Slackbot.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :slack],
      mod: {Slackbot, []}]
   end
 
@@ -28,6 +28,6 @@ defmodule Slackbot.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:slack, "~> 0.11.0"}]
   end
 end
